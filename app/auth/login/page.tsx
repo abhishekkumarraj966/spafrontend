@@ -104,14 +104,14 @@ export default function LoginPage() {
           </form>
 
           {/* Demo hint */}
-          <div
+          {/* <div
             className="mt-5 p-4 rounded-xl text-xs leading-relaxed"
             style={{ background: 'rgba(201,169,110,.12)', color: 'var(--gold)' }}
           >
             <p className="font-bold mb-1">Demo Credentials</p>
             <p>Admin: <code className="opacity-80">admin@spa.com</code> / <code className="opacity-80">Admin@1234</code></p>
             <p className="mt-0.5">User: Register a new account below ↓</p>
-          </div>
+          </div> */}
 
           <p className="text-center text-sm mt-6" style={{ color: 'rgba(255,255,255,.55)' }}>
             Don't have an account?{' '}
